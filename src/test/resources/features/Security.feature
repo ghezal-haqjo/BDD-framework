@@ -30,8 +30,8 @@ Feature: Application Security Functions
 
     Examples:
       | username      | password       | errorMessage         |
-      | wrongUsername | tek_supervisor | User not found       |
-      | supervisor    | wrong password | Password Not Matched |
-      | MohammadCSR   | tek_supervisor | User not found       |
-      | Ali           | tek_supervisor | User not found       |
+      | wrongUsername | tek_supervisor | User wrongUsername not found       |
+      | supervisor    | wrong password | Password not matched |
+      | MohammadCSR   | tek_supervisor | User MohammadCSR not found       |
+      | Ali           | tek_supervisor | User Ali not found       |
 
